@@ -28,6 +28,13 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+
+#empty{
+  height:20px;
+  width:800px;
+  //background-color: red;
+}
+
 header {
    position: relative;
    height: 800px;
@@ -566,6 +573,7 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
+
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
@@ -626,7 +634,9 @@ ul#nav li.current a { color: #F06000; }
    background: #111;
    text-align: left;
 }
+
 .popup-modal .link-box a {
+
    color: #fff;
 	font: 11px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
@@ -1185,4 +1195,3 @@ h6{
 #about p{
   font-size:10px;
 }
-
