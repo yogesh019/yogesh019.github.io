@@ -103,7 +103,7 @@ header .banner-text hr {
   height: 40px;
   //color: black;
   //border: 2px solid;
-  transition: all .7s;
+  transition: all 0.2s;
 }
 .circle:hover{
   transform: scale(1.5) rotate(360deg);
