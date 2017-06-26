@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="shortcut icon" href="images/resume.png" />
 
    <!-- Script
    ================================================== -->
@@ -30,6 +31,28 @@
 	================================================== -->
 	<!--<link rel="shortcut icon" href="favicon.png" >-->
 
+<style>
+
+
+
+
+#portfolio-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#exception{
+	display:static;
+}
+//@media screen and (max-width: 760px){
+  
+
+  //#geek{
+    //position:static;
+    right:0;
+ // }
+//}
+</style>
 </head>
 
 <body>
@@ -231,7 +254,7 @@
                   <p class="info" style="color:font-family: 'Monotype Corsiva', Times, serif"><b>
                   I am working as a Web Developer both front-end and back-end , building awesome and creative applications and websites , using front-end technologies like html , css , javascript and jquery.
                   <strong>I also love to automate my life by writing creative and useful python scripts , such as dowloading 
-                  lastest movies from IMDB website by writing only a script , and to notify mysellf whenever the product prize of amazon drops from it's usual prize and many more ...</strong>
+                  lastest movies from IMDB website by writing only a script , and to notify myself whenever the product prize of amazon drops from it's usual prize and many more ...</strong>
                   I also work on backend framework Django build primarily on python to create web applications, which nowadays are geeting a trend -web applications are becoming more stronger!</b>
 
 
@@ -349,25 +372,61 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
+               <div class="columns portfolio-item" id="exception">
+                  <div class="item-wrap" >
 
                      <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/musicplayer.jpg">
+                        <img alt="" src="images/portfolio/geekscrawler.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Web Development</h5>
+          					      <h5>Django Web-App</h5>
                               
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
-                     <div id="empty">
-                     </div>
-
+                    
                   </div>
 
           		</div> <!-- item end -->
+
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-006" title="">
+                        <img alt="" src="images/portfolio/short.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Django Web-App</h5>
+                              
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-007" title="">
+                        <img alt="" src="images/portfolio/miniquora.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Django Web-App</h5>
+                              
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
@@ -403,7 +462,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <div class="columns portfolio-item" id="geek">
                   <div class="item-wrap">
 
                      <a href="#modal-07" title="">
@@ -481,20 +540,62 @@
 
          <div id="modal-04" class="popup-modal mfp-hide"  style="color:black;">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/musicplayer.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/geekscrawler.png" alt="" />
 
 		      <div class="description-box">
-			      <h4>Drag and Drop Music Player!</h4>
-			      <p style="color:black;">Building a drag and drop music player with voice recognition command plus local storage to store the preveously played songs ,such that if the user opens it's browser again his/her song will be played and also trying to add "find a song " command which uses an API which takes title of the song from the command and finds a public url for it and play that song in music player!</p>
+			      <h4><!--Drag and Drop Music Player!--> Geeks For Geeks Crawler</h4>
+			      <p style="color:black;"><!--Building a drag and drop music player with voice recognition command plus local storage to store the preveously played songs ,such that if the user opens it's browser again his/her song will be played and also trying to add "find a song " command which uses an API which takes title of the song from the command and finds a public url for it and play that song in music player!-->
+			      A simple Web-App made using Django. It basically crawls the geeks for geeks website ,user will enter the company name and category(internship or interview) and it will show all the questions asked and can be downloaded as pdf . I have made an Ajax request here which gathers  all the information from the server without page reload ! 
+			      </p>
                
 		      </div>
 
             <div class="link-box">
-               <a href="#">Check It Out!</a>
+               <a href="https://github.com/yogesh019/geeks_crawler">Check It Out!</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div><!-- modal-04 End -->
+
+         
+         <div id="modal-006" class="popup-modal mfp-hide" style="color:black;">
+
+		      <img class="scale-with-grid" src="images/portfolio/shortlr.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Shortlr</h4>
+			      <p style="color:black;">A simple Url Shortener made using Django ! </p>
+           
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.github.com/yogesh019/shortlr">Check It Out!</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-006 End -->
+
+	      <div id="modal-007" class="popup-modal mfp-hide" style="color:black;">
+
+		      <img class="scale-with-grid" src="images/portfolio/quora.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Miniquora</h4>
+			      <p style="color:black;">A web app similar to quora , where user can ask questions and get answers.
+			      Made a well structured login system and effectively handeled databases! </p>
+           
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.github.com/yogesh019/miniquora">Check It Out!</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-007 End -->
+
+
+
+
 
          <div id="modal-05" class="popup-modal mfp-hide" style="color:black;">
 
